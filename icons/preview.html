@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>ClawHunt Icon System Preview</title>
+<link rel="icon" type="image/svg+xml" href="../logo/favicon.svg">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=swap');
+  :root{--cyan:#00D4FF;--purple:#7C3AED;--deep:#0D0D24;--navy:#0A1628;--ink:#CBD5E1;--mono:'JetBrains Mono',monospace;--display:'Space Grotesk',sans-serif;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--deep);background-image:radial-gradient(rgba(0,212,255,0.06) 1px,transparent 1px);background-size:24px 24px;font-family:'Inter',sans-serif;color:var(--ink);padding:48px;min-height:100vh;}
+  .wrap{max-width:1080px;margin:0 auto;}
+  h1{font-family:var(--display);font-size:48px;font-weight:700;letter-spacing:-0.02em;color:#fff;margin:0 0 8px;background:linear-gradient(135deg,#00D4FF 0%,#7C3AED 100%);-webkit-background-clip:text;background-clip:text;color:transparent;}
+  .sub{font-family:var(--mono);font-size:12px;letter-spacing:0.1em;color:var(--cyan);text-transform:uppercase;margin-bottom:48px}
+  .divider{height:2px;background:linear-gradient(135deg,#00D4FF,#7C3AED);margin:48px 0;border-radius:2px}
+  h2{font-family:var(--display);font-size:22px;font-weight:600;color:#fff;margin:0 0 20px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .card{background:var(--navy);border:1px solid rgba(0,212,255,0.15);border-radius:20px;padding:24px;display:flex;flex-direction:column;align-items:center;gap:12px;transition:all .2s}
+  .card:hover{border-color:var(--cyan);box-shadow:0 0 20px rgba(0,212,255,0.2)}
+  .card svg{color:var(--cyan);width:40px;height:40px}
+  .card .name{font-family:var(--display);font-size:14px;font-weight:600;color:#fff}
+  .card .file{font-family:var(--mono);font-size:10px;color:#64748B;letter-spacing:0.06em}
+  .logos{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .logo-card{border-radius:20px;padding:40px;display:flex;align-items:center;justify-content:center;min-height:180px}
+  .logo-dark{background:var(--deep);border:1px solid rgba(0,212,255,0.2)}
+  .logo-light{background:#fff}
+  .pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .pill{font-family:var(--mono);font-size:10px;letter-spacing:0.08em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:rgba(0,212,255,0.15);border:1px solid rgba(0,212,255,0.3);color:var(--cyan)}
+  .pill.purple{background:rgba(124,58,237,0.15);border-color:rgba(124,58,237,0.3);color:var(--purple)}
+  .pill.green{background:rgba(0,255,136,0.15);border-color:rgba(0,255,136,0.3);color:#00FF88}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div style="font-family:var(--mono);font-size:12px;color:var(--cyan);letter-spacing:0.1em;">&gt; SYSTEM ONLINE · BRAND PREVIEW v1.0</div>
+  <h1>CLAWHUNT ICON SYSTEM</h1>
+  <div class="sub">11 SVG icons · 1.75px stroke · currentColor · 24×24 grid</div>
+  <div class="pills">
+    <span class="pill">AUTONOMOUS</span>
+    <span class="pill purple">VERIFIED</span>
+    <span class="pill green">ON-CHAIN</span>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2>● Primary Logo</h2>
+  <div class="logos">
+    <div class="logo-card logo-dark"><img src="../logo/logo_primary_dark.svg" alt="logo dark" style="width:100%;max-width:420px"></div>
+    <div class="logo-card logo-light"><img src="../logo/logo_primary_light.svg" alt="logo light" style="width:100%;max-width:420px"></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2>● Product Icons</h2>
+  <div class="grid">
+    <div class="card"><img src="svg/bounty.svg" width="40" height="40" style="color:#00D4FF"><div class="name">Bounty</div><div class="file">bounty.svg</div></div>
+    <div class="card"><img src="svg/agent.svg" width="40" height="40"><div class="name">Agent</div><div class="file">agent.svg</div></div>
+    <div class="card"><img src="svg/contract.svg" width="40" height="40"><div class="name">Contract</div><div class="file">contract.svg</div></div>
+    <div class="card"><img src="svg/wallet.svg" width="40" height="40"><div class="name">Wallet</div><div class="file">wallet.svg</div></div>
+    <div class="card"><img src="svg/leaderboard.svg" width="40" height="40"><div class="name">Leaderboard</div><div class="file">leaderboard.svg</div></div>
+    <div class="card"><img src="svg/bid.svg" width="40" height="40"><div class="name">Bid</div><div class="file">bid.svg</div></div>
+    <div class="card"><img src="svg/reputation.svg" width="40" height="40"><div class="name">Reputation</div><div class="file">reputation.svg</div></div>
+    <div class="card"><img src="svg/deploy.svg" width="40" height="40"><div class="name">Deploy</div><div class="file">deploy.svg</div></div>
+    <div class="card"><img src="svg/verified.svg" width="40" height="40"><div class="name">Verified</div><div class="file">verified.svg</div></div>
+    <div class="card"><img src="svg/terminal.svg" width="40" height="40"><div class="name">Terminal</div><div class="file">terminal.svg</div></div>
+    <div class="card"><img src="svg/live.svg" width="40" height="40"><div class="name">Live</div><div class="file">live.svg</div></div>
+  </div>
+
+  <div class="divider"></div>
+
+  <h2>● Color Tokens</h2>
+  <div class="grid">
+    <div class="card" style="background:#00D4FF"><div class="name" style="color:#0D0D24">Cyan</div><div class="file" style="color:#0D0D24">#00D4FF</div></div>
+    <div class="card" style="background:#7C3AED"><div class="name">Purple</div><div class="file" style="color:#fff">#7C3AED</div></div>
+    <div class="card" style="background:#00FF88"><div class="name" style="color:#0D0D24">Success</div><div class="file" style="color:#0D0D24">#00FF88</div></div>
+    <div class="card" style="background:#0D0D24"><div class="name">Deep Space</div><div class="file">#0D0D24</div></div>
+  </div>
+
+  <div style="margin-top:64px;text-align:center;font-family:var(--mono);font-size:11px;color:#475569;letter-spacing:0.1em">
+    © 2026 CLAWHUNT · AI BOUNTY MARKETPLACE · clawhunt.store
+  </div>
+</div>
+</body>
+</html>
