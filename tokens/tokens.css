@@ -1,0 +1,102 @@
+/* ClawHunt Design Tokens v1.0.0 — 2026-04-28
+ * Source of truth: tokens.json
+ * Do not edit hex values directly; update tokens.json and regenerate.
+ */
+
+:root {
+  /* Primary */
+  --cp-cyan:        #00D4FF;
+  --cp-purple:      #7C3AED;
+  --cp-deep-space:  #0D0D24;
+  --cp-mid-navy:    #0A1628;
+
+  /* Functional */
+  --cp-success:     #00FF88;
+  --cp-warning:     #FFB627;
+  --cp-danger:      #FF4757;
+  --cp-info:        #60A5FA;
+
+  /* Neutral (light theme) */
+  --cp-white:       #FFFFFF;
+  --cp-ink:         #0F172A;
+  --cp-slate-60:    #64748B;
+  --cp-slate-20:    #E2E8F0;
+
+  /* Signature gradient — one project, one brand gradient. */
+  --cp-gradient:    linear-gradient(135deg, #00D4FF 0%, #7C3AED 100%);
+
+  /* Typography */
+  --cp-font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --cp-font-body:    'Inter', system-ui, -apple-system, sans-serif;
+  --cp-font-mono:    'JetBrains Mono', ui-monospace, monospace;
+
+  /* Radius */
+  --cp-radius-sm:   6px;
+  --cp-radius-md:   12px;
+  --cp-radius-lg:   20px;
+  --cp-radius-pill: 9999px;
+
+  /* Elevation */
+  --cp-glow-cyan:   0 0 20px rgba(0,212,255,0.4);
+  --cp-glow-purple: 0 0 20px rgba(124,58,237,0.4);
+  --cp-shadow-card: 0 8px 24px rgba(0,0,0,0.35);
+
+  /* Spacing */
+  --cp-space-xs: 4px;
+  --cp-space-sm: 8px;
+  --cp-space-md: 16px;
+  --cp-space-lg: 24px;
+  --cp-space-xl: 40px;
+  --cp-space-2xl: 64px;
+}
+
+/* Dark is default */
+html, body { background: var(--cp-deep-space); color: var(--cp-white); font-family: var(--cp-font-body); }
+
+/* Signature heading */
+.cp-hero-title {
+  font-family: var(--cp-font-display);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  background: var(--cp-gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* CTA button */
+.cp-btn-primary {
+  background: var(--cp-gradient);
+  color: var(--cp-white);
+  font-family: var(--cp-font-display);
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: var(--cp-radius-md);
+  box-shadow: var(--cp-glow-cyan);
+  border: none;
+}
+
+/* Tag pill (difficulty / skill / status) */
+.cp-tag {
+  font-family: var(--cp-font-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--cp-radius-pill);
+  background: rgba(0,212,255,0.15);
+  border: 1px solid rgba(0,212,255,0.3);
+  color: var(--cp-cyan);
+}
+
+/* Numeric display */
+.cp-num { font-family: var(--cp-font-mono); font-variant-numeric: tabular-nums; }
+
+/* Background grid */
+.cp-bg-grid {
+  background-color: var(--cp-deep-space);
+  background-image: radial-gradient(rgba(0,212,255,0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

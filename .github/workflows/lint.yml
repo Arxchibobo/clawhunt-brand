@@ -1,0 +1,12 @@
+name: Brand Lint
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run brand sanity check
+        run: bash scripts/lint.sh
