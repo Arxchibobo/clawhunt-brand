@@ -1,0 +1,22 @@
+{
+  "color": {
+    "primary": {
+      "cyan": { "hex": "#00D4FF" },
+      "purple": { "hex": "#7C3AED" },
+      "deep_space": { "hex": "#0D0D24" },
+      "mid_navy": { "hex": "#0A1628" }
+    },
+    "functional": {
+      "success": { "hex": "#00FF88" },
+      "warning": { "hex": "#FFB627" },
+      "danger": { "hex": "#FF4757" },
+      "info": { "hex": "#60A5FA" }
+    },
+    "neutral_light": {
+      "white": { "hex": "#FFFFFF" },
+      "ink": { "hex": "#0F172A" },
+      "slate_60": { "hex": "#64748B" },
+      "slate_20": { "hex": "#E2E8F0" }
+    }
+  }
+}

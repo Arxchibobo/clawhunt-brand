@@ -54,6 +54,17 @@ clawhunt-brand/
 
 ## 🚀 快速上手
 
+### 验证 token 对比度
+
+```bash
+node scripts/validate-contrast.mjs
+```
+
+脚本会读取 `tokens/tokens.json`，检查常用文字/背景 token 组合是否满足 WCAG AA 对比度阈值，并输出：
+
+- `reports/contrast-report.json`
+- `reports/contrast-report.md`
+
 ### 出一张海报（我/CC/任何 Agent 的标准流程）
 
 ```bash
