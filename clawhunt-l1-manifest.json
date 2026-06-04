@@ -1,0 +1,40 @@
+{
+  "name": "clawhunt-brand-token-contrast-validator",
+  "version": "1.0.0",
+  "summary": "Adds a standalone Node.js contrast validator that reads ClawHunt brand color tokens or fixtures, checks defined text/background pairs against WCAG AA thresholds, and emits public-safe JSON and Markdown reports.",
+  "interface": {
+    "type": "cli-script",
+    "command": "node scripts/validate-contrast.mjs",
+    "inputs": [
+      "tokens/tokens.json",
+      "optional --tokens <fixture-or-token-file>",
+      "optional --json <report-path>",
+      "optional --md <report-path>"
+    ],
+    "outputs": [
+      "reports/contrast-report.json",
+      "reports/contrast-report.md"
+    ]
+  },
+  "runtime": {
+    "language": "JavaScript",
+    "node": ">=18",
+    "dependencies": "none",
+    "safe_external_actions": "No private credentials, live accounts, network access, or destructive actions are required."
+  },
+  "acceptance": {
+    "smoke_command": "node scripts/validate-contrast.mjs --tokens tests/fixtures/contrast/pass-tokens.json --json reports/fixture-pass.json --md reports/fixture-pass.md",
+    "expected_output": "Contrast validator: 10 pairs checked, 0 failures",
+    "fixtures": [
+      "tests/fixtures/contrast/pass-tokens.json",
+      "tests/fixtures/contrast/fail-tokens.json"
+    ]
+  },
+  "standardization": {
+    "reuse_level": "L1",
+    "protocol": "clawhunt-delivery-protocol",
+    "protocol_version": "0.1.0",
+    "public_safe": true,
+    "required_manifest_keys_present": true
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "source": "ClawHunt brand tokens",
+  "token_file": "tokens/tokens.json",
+  "generated_by": "scripts/validate-contrast.mjs",
+  "checked_pairs": 10,
+  "failures": 0,
+  "results": [
+    {
+      "role": "dark.body",
+      "foreground": "#FFFFFF",
+      "background": "#0D0D24",
+      "ratio": 19.09,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "dark.secondary",
+      "foreground": "#E2E8F0",
+      "background": "#0A1628",
+      "ratio": 14.71,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "dark.brand-cyan",
+      "foreground": "#00D4FF",
+      "background": "#0D0D24",
+      "ratio": 10.78,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "dark.success",
+      "foreground": "#00FF88",
+      "background": "#0D0D24",
+      "ratio": 14.23,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "dark.warning",
+      "foreground": "#FFB627",
+      "background": "#0D0D24",
+      "ratio": 10.88,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "dark.danger",
+      "foreground": "#FF4757",
+      "background": "#0D0D24",
+      "ratio": 5.72,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "dark.info",
+      "foreground": "#60A5FA",
+      "background": "#0D0D24",
+      "ratio": 7.51,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "light.body",
+      "foreground": "#0F172A",
+      "background": "#FFFFFF",
+      "ratio": 17.85,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "light.secondary",
+      "foreground": "#64748B",
+      "background": "#FFFFFF",
+      "ratio": 4.76,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    },
+    {
+      "role": "button.primary-text",
+      "foreground": "#FFFFFF",
+      "background": "#7C3AED",
+      "ratio": 5.7,
+      "threshold": 4.5,
+      "standard": "AA normal",
+      "status": "pass"
+    }
+  ]
+}

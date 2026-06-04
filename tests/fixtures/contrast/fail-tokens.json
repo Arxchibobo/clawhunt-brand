@@ -1,0 +1,22 @@
+{
+  "color": {
+    "primary": {
+      "cyan": { "hex": "#222222" },
+      "purple": { "hex": "#777777" },
+      "deep_space": { "hex": "#222222" },
+      "mid_navy": { "hex": "#222222" }
+    },
+    "functional": {
+      "success": { "hex": "#222222" },
+      "warning": { "hex": "#222222" },
+      "danger": { "hex": "#222222" },
+      "info": { "hex": "#222222" }
+    },
+    "neutral_light": {
+      "white": { "hex": "#FFFFFF" },
+      "ink": { "hex": "#777777" },
+      "slate_60": { "hex": "#DDDDDD" },
+      "slate_20": { "hex": "#222222" }
+    }
+  }
+}
